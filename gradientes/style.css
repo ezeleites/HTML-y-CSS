@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-color: red;
+}
+
+.box {
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(transparent, #000a);
+    margin: 0;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid #900;
+}
+
+img{
+    width: 300px;
+}
+h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
