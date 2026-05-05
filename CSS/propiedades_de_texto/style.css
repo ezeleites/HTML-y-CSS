@@ -1,0 +1,14 @@
+p {
+    color: red;
+    font-size: 16px;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 2;
+}
+
+span {
+    text-decoration: line-through;
+    color: brown;
+    text-transform: uppercase;
+}
