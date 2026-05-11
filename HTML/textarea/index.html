@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1>Formulario de Contacto</h1>
+        <fieldset>
+            <legend>INFORMACION BASICA</legend>
+            <div class="form_input">
+                <label for="">Nombre</label>
+                <input type="text" placeholder="Ezequiel">
+            </div>
+            
+            <div class="form_input">
+                <label for="">Email</label>
+                <input type="email" placeholder="ejemplo@gmail.com">
+            </div>
+
+            <div class="form_input">
+                <label for="">Asunto</label>
+                <input type="text" placeholder="Asunto de tu mensaje">
+            </div>
+        </fieldset>
+        <div class="form_input">
+            <label for="">Tipo de Usuario</label>
+            <select name="type-of-user" id="">
+                <option value="user1">Opcion 1</option>
+                <option value="user2">Opcion 2</option>
+                <option value="user2">Opcion 2</option>
+            </select>
+        </div>
+        <div class="form_input">
+            <label for="">Referente</label>
+                <input list="referente">
+                <datalist id="referente" name="type-of-user">
+                    <option value="Ezequiel"></option>
+                    <option value="Empresa"></option>
+                    <option value="Amigo"></option>
+                </datalist>
+        </div>
+        <div class="form_input">
+            <label for="">Mensaje</label>
+            <textarea name="" id="" placeholder="Deja tu mensaje"></textarea>
+        </div>
+        <div class="form_input">
+            <label for="checkbox">Acepto los Terminos y Condiciones</label><input id="checkbox" type="checkbox" class="checkbox">
+        </div>
+    </form>
+</body>
+</html>
